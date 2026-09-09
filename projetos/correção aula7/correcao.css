@@ -1,0 +1,149 @@
+/* configuraçoes gerais */
+body {
+    font-family:Arial, helvetica, sans-serif;
+    background-color: aquamarine;
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+/* cabeçalho */
+header {
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 38px;
+}
+/* painel de navegação */
+nav {
+    margin-top: 25px;
+}
+nav a {
+    color: azure;
+    text-decoration: nome;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* conteudo principal */
+main {
+    margin: 30px
+
+}
+
+section{
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+section h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+section h3 {
+}
+
+section p {
+    font-size: 17px
+    line-height: 1.6;
+}
+
+/* imagem principal */
+.imagem-principal{
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin:20px auto;
+}
+
+.web {
+    background-color: aliceblue;
+    border: 1px; solid #cccccc
+    margin: 20px;
+    padding: 20px;
+}
+
+.sistemas {
+    background-color: aliceblue;
+    border: 1px; solid #cccccc
+    margin: 20px;
+    padding: 20px;
+}
+
+.consultoria {
+    background-color: aliceblue;
+    border: 1px; solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+.bd {
+    background-color: aliceblue;
+    border: 1px; solid #cccccc
+    margin: 20px;
+    padding: 20px;
+}
+
+/* todos poderiam ser reduzidos a apenas 1 classe */
+.cartoes_servicos {
+    background-color: bisque;
+    border: 1px solid #cccccc
+
+}
+
+.funcionarios {
+    background-color: aliceblue;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.funcionarios img {
+    width: 150px;
+    height: 150px;
+}
+
+.vendas {
+    background-color: beige;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.aplicativo {
+    background-color: beige;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: aliceblue;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: beige;
+    color: bisque;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
